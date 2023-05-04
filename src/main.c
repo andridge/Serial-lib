@@ -1,8 +1,10 @@
 #include "serial-lib/serial_port.h"
+#include <stdio.h>
+
 #define BUFFER_SIZE 256
 
 int main (){
-    
+
 SerialPort port;
 const char* port_name = "/dev/tty.usbserial-110";  // Change this to the correct port name
 speed_t baudrate = 9600;
