@@ -25,8 +25,8 @@ float numbertwo;
      if (bytes_read > 0) {
      //change scanf to carter to how serial is sent  
        sscanf(buffer, "%*s %*s %f %*s %*s %*s %f",&numberone ,&numbertwo);
-       printf("number one : ", numberone);
-       printf("number two : ", numbertwo);
+      printf("number one : %f\n", numberone);
+    printf("number two : %f\n", numbertwo);
        SerialPort_flush(&port);
      }
      return 0 ;
