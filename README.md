@@ -31,6 +31,6 @@ This library is released under the MIT License. Feel free to use and modify it a
 
 Contact
 
-If you have any questions or need further assistance, please reach out to the library maintainer at [email address].
+If you have any questions or need further assistance, please reach out to the library maintainer at munenengarw@gmail.com.
 
 Happy serial communication!
